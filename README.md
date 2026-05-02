@@ -563,17 +563,11 @@ Update-Database -Project IdentityService.infrastructure
 
 ---
 
-## License
-
-MIT License - See LICENSE file for details
-
----
-
 ## Contact & Support
 
 For questions or issues:
 - Create a GitHub Issue
-- Email: your-email@example.com
+- Email: abrahammicheal55@yahoo.com
 
 ---
 
