@@ -1,0 +1,33 @@
+<Solution>
+  <Folder Name="/ApiGateway/" />
+  <Folder Name="/IdentityService/" />
+  <Folder Name="/IdentityService/src/" />
+  <Folder Name="/IdentityService/src/core/">
+    <Project Path="IdentityService/src/core/IdentityService.application/IdentityService.application.csproj" />
+    <Project Path="IdentityService/src/core/IdentityService.domain/IdentityService.domain.csproj" />
+  </Folder>
+  <Folder Name="/IdentityService/src/external/">
+    <Project Path="IdentityService/src/external/IdentityService.api/IdentityService.api.csproj" />
+    <Project Path="IdentityService/src/external/IdentityService.infrastructure/IdentityService.infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/OrderService/" />
+  <Folder Name="/OrderService/src/" />
+  <Folder Name="/OrderService/src/core/">
+    <Project Path="OrderService/src/core/OrderService.application/OrderService.application.csproj" />
+    <Project Path="OrderService/src/core/OrderService.domain/OrderService.domain.csproj" />
+  </Folder>
+  <Folder Name="/OrderService/src/external/">
+    <Project Path="OrderService/src/external/OrderService.api/OrderService.api.csproj" />
+    <Project Path="OrderService/src/external/OrderService.infrastructure/OrderService.infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/ProductService/" />
+  <Folder Name="/ProductService/src/" />
+  <Folder Name="/ProductService/src/core/">
+    <Project Path="ProductService/src/core/ProductService.application/ProductService.application.csproj" />
+    <Project Path="ProductService/src/core/ProductService.domain/ProductService.domain.csproj" />
+  </Folder>
+  <Folder Name="/ProductService/src/external/">
+    <Project Path="ProductService/src/external/ProductService.api/ProductService.api.csproj" />
+    <Project Path="ProductService/src/external/ProductService.infrastructure/ProductService.infrastructure.csproj" />
+  </Folder>
+</Solution>
