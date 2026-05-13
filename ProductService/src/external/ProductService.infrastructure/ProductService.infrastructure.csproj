@@ -1,12 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\..\core\ProductService.domain\ProductService.domain.csproj" />
-    <ProjectReference Include="..\..\core\ProductService.application\ProductService.application.csproj" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.7">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.1" />
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.7" />
+    <ProjectReference Include="..\..\core\ProductService.domain\ProductService.domain.csproj" />
+    <ProjectReference Include="..\..\core\ProductService.application\ProductService.application.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

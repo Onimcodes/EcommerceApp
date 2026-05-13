@@ -13,7 +13,7 @@ namespace IdentityService.api.Configurations
     {
         public static IServiceCollection AddIdentityPresentationService(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("AppDbConnection")));
+            services.AddDbContext<AppDbContext>(options => options.UseNpgsql(configuration.GetConnectionString("AppDbConnection")));
 
             // JWT Authentication
             services.AddAuthentication(x =>

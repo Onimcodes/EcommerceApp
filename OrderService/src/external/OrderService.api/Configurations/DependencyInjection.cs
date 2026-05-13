@@ -9,7 +9,7 @@ namespace OrderService.api.Configurations
     {
         public static IServiceCollection AddOrderPresentationService(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("AppDbConnection")));
+            services.AddDbContext<AppDbContext>(options => options.UseNpgsql(configuration.GetConnectionString("AppDbConnection")));
             return services;
         }
     }

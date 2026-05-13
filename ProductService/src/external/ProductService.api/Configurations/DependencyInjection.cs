@@ -7,7 +7,7 @@ namespace ProductService.api.Configurations
     {
         public static IServiceCollection AddProductPresentationService (this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddDbContext<AppDbContext>(options => options.UseSqlServer(configuration.GetConnectionString("AppDbConnection")));
+            services.AddDbContext<AppDbContext>(options => options.UseNpgsql(configuration.GetConnectionString("AppDbConnection")));
             return services;
         }
     }
